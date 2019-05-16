@@ -1,5 +1,5 @@
 {% set name = "conda_deps" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0c6031790a7ec7f59b48ba51d05b1cd046194193699627e8e5dfc5cdc7e9b30e
+  sha256: 577e733342ea518218fa2e77ba21d2d8ca1f599ab88eae1abe6f79b92d700773
 
 build:
   number: 0
